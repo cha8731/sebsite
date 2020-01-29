@@ -1,0 +1,750 @@
+@charset "utf-8";
+/*-------------------------------------------------
+Author : JMKIM
+Create date : 2016. 11. 07
+-------------------------------------------------*/
+.table-layout .contents h3.depth3_title {
+	margin: 23px 0 5px;
+    padding: 0;
+    color: #0277bd;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+	}
+.section_area {
+	width: 210px;
+	margin-top: 25px;
+    overflow: hidden;
+	}	
+.section_area object {
+	width: 100%;
+	}	
+.section_area .tit_subject {
+	margin-bottom: 5px;
+	font-size: 1.214em;
+	font-weight: bold;
+	}
+.number_lstyle > li  span {
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 2px 5px 0 0;
+    background: #fff;
+    border: solid 1px #d7d7d7;
+    box-sizing: border-box;
+    color: #333;
+    text-align: center;
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 10px;
+    font-weight: normal;
+    overflow: hidden;
+	}	
+/* 검색 */
+.search_wrap {
+	margin-bottom: 38px;
+	overflow: hidden;
+	}
+.basic_search {
+	padding-left: 88px;
+	background: url(/khidi_web/images/2016/search/icon_search.gif) no-repeat  33px 0;
+	}	
+.basic_search > label {
+    display: inline-block;
+    margin-right: 15px;
+	padding: 8px 0;
+	color: #5d9cec;
+	letter-spacing: -0.05em;
+    vertical-align: top;	
+    font-size: 1.429em;
+    font-weight: bold;
+	}	
+.basic_search > input[type="text"]	{
+	width: 540px;
+    margin-bottom: 3px;	
+	padding: 9px 10px 10px;
+	border: solid 4px #5d9cec;
+	vertical-align: top;
+	}
+.basic_search > input[type="submit"]	{
+	width: 100px;
+	height: 45px;
+	background: #5d9cec;
+	color: #fff;
+	font-size: 1.071em;
+	font-weight: bold; 
+	}	
+.search_option {
+	position: relative;
+	overflow: hidden;
+	}	
+.search_option.active {
+	min-height: 92px;
+	}
+	
+.search_option > li {
+    float: left;
+    margin-left: 20px;
+	}	
+.search_option > li:first-child {
+    margin-left: 0;
+	padding-left: 180px;
+	}	
+.search_option > li > button {
+	padding-left: 18px;
+	background: url(/khidi_web/images/2016/search/input_img.gif) no-repeat 0 bottom;
+	letter-spacing: -0.05em;
+	color: #555;
+	font-size: 0.929em;	
+	}	
+.search_option > li > button.up {
+	background: url(/khidi_web/images/2016/search/input_img_on.gif) no-repeat 0 bottom;
+	}
+.search_option > li > label {
+	letter-spacing: -0.05em;
+	color: #555;
+	font-size: 0.929em;
+	}	
+.search_option .advanced_option {	
+	display: none;
+	position: absolute;
+	width: 100%;
+	margin: 10px 0 0 -180px;
+	padding: 13px 0 0 95px;
+    border-top: solid 1px #ccd1d9;
+    box-sizing: border-box;    
+	}
+.search_option .advanced_option strong {
+	display: inline-block;
+	margin-right: 8px;
+	}
+.search_option .advanced_option label {
+	display: inline-block;
+	width: 67px;
+	margin-left: 5px;
+	font-size: 12px;
+	}	
+.search_option .advanced_option input[type="text"] {
+	padding: 4px 5px;
+	}
+.search_count {
+    clear: both;
+	padding: 16px 20px;
+	background: #f5f7fa;
+	border-radius: 3px;
+	border: solid 1px #e6e9ed;
+	font-size: 15px;
+	overflow: hidden;
+	}
+.search_count .float_right {
+	font-size: 14px;	
+	}
+.search_count .float_right strong {
+	display: inline-block;
+	}	
+.search_count .float_right input[type="radio"] {
+	margin: 0 5px 0 10px;
+	}	
+.search_wrap input[type="radio"],	
+.search_count input[type="radio"] {
+	width: 13px;
+	height: 13px;
+	margin-top: 0;
+	border: 1px solid #4a89dc;
+	border-radius: 50%;
+	-webkit-appearance:none;
+	}
+.search_wrap input[type="radio"]:before,
+.search_count input[type="radio"]:before {
+	display: block;
+	width: 48%;
+	height: 48%;
+	margin: 23% auto;    
+	border-radius:50%; 
+	content: '';   
+	}
+.search_wrap input[type="radio"]:checked:before,
+.search_count input[type="radio"]:checked:before {
+	background:#4a89dc;
+	}
+	
+.search_count strong {
+	color: #000;	
+	}	
+.search_count span {
+	color: #4165bc;
+	font-weight: bold;
+	}	
+.searchTitle {
+	margin: 28px 0 8px;
+    line-height: 1.3;	
+	overflow: hidden;
+	}
+.searchTitle .title {
+	float: left;
+	font-size: 1.286em;
+	}
+.searchTitle span {	
+	color: #4165bc;
+	font-size: 0.778em;
+	font-weight: normal;
+	}
+.searchTitle .more {
+	float: right;
+	margin-top: 5px;
+	padding-left: 15px;
+	background: url(/khidi_web/images/2016/search/more.gif) no-repeat  0 6px;
+	}	
+.searchTitle .more a {
+	color: #4165bc;
+	}
+.result_list {
+	border-top: solid 2px #5d9cec;
+	border-bottom: solid 1px #e1e1e1;
+	}	
+.result_list > li {
+	position: relative;
+	padding: 19px 0 14px;
+	border-top: solid 1px #e1e1e1;
+	overflow: hidden;
+	}
+.result_list > li:first-child {
+	border-top: none;
+	}
+.result_list > li .type {
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	padding: 0 10px 2px;
+	color: #5d9cec;
+	border: solid 1px #5d9cec;
+	border-radius: 3px;
+	letter-spacing: -0.08em;
+	line-height: 1.2;
+	font-size: 0.929em;
+	}
+.result_list > li > strong {
+	display: block;
+	margin-bottom: 12px;
+	padding-right: 80px;
+	font-size: 1.143em;
+	}	
+.result_list > li > strong a {
+	color: #4165bc;
+	}	
+.result_list > li > strong .point01 {
+	color: #e9573f;
+	}
+.result_list > li .txt {
+	margin-bottom: 10px;
+	}	
+.result_list .etc {
+	color: #8a95a4;
+	overflow: hidden;
+	}
+.result_list .etc > li {
+	float: left;
+	margin-left: 10px;
+	padding-left: 10px;
+	background: url(/khidi_web/images/2016/search/search_arrow.gif) no-repeat  0 center;
+	}
+.result_list .etc > li:first-child {
+	margin-left: 0;
+	}
+.result_list .etc > li strong {
+	color: #656d78;
+	}
+	
+/* myeong-hee 추가 2017.1.13 
+-----------------------------------------------*/
+/* 도움말 */
+.gray_box {
+	margin-bottom: 20px;
+	padding: 17px 20px;
+	border: solid 3px #e5ebf2;
+	overflow: hidden;
+	}
+	
+/* 공통탭 */
+.common-tab {
+	height: 51px;
+	width: 1200px;
+	margin: 40px auto 60px;
+	border-bottom: 1px solid #8698b0;
+	}
+.common-tab.half {
+	margin: 0 0 30px;
+	}
+.common-tab>ul {
+	display: inline-block;
+	}
+.common-tab>ul > li {
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	}
+.common-tab > ul > li > a {
+	display: inline-block;
+	min-width: 150px;
+	padding: 13px 15px 12px;
+	background: #f5f7fa;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #e6e9ed;
+	color: #656d78;
+	}
+.common-tab>ul > li>a:hover, 
+.common-tab>ul > li>a.active {
+	background: #8698b0;
+	border-color: #8698b0;
+	color: #fff;
+	}
+.tab-menu {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 15px 0;
+	border-bottom: 1px solid #d7d7d7;
+	text-align: center;
+	}
+.tab-menu>li {
+	display: inline;
+	}
+.tab-menu>li>a {
+	display: inline-block;
+	width: 165px;
+	height: 45px;
+	padding: 11px 0;
+	color: #9097a0;
+	border: 1px solid #a1a9b5;
+	font-size: 16px;
+	}
+.tab-menu>li.active>a {
+	background: #5464af;
+	border-color: #5464af;
+	color: #fff;
+	}
+/* 사업소개 */
+.container.big {
+	width: 1400px;
+	height: 610px;
+	margin: -27px 0 -51px;
+	background: url(/khidi_web/images/2016/intro/bg_mv01.jpg) 0 0 no-repeat;
+	color: #fff;
+	text-align: center;
+	}
+.container.big .slogan.top {
+	padding-top: 90px;
+	font-size: 26px;
+	}
+.container.big .circle {
+	width: 690px;
+	margin: 50px auto 90px;
+	overflow: hidden;
+	}
+.container.big .circle>li {
+	float: left;
+	width: 25%;
+	}
+.container.big .circle>li a {
+	display: block;
+	padding-top: 140px;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-size: 18px;
+	}
+.container.big .circle>li:nth-child(1) a {
+	background-image: url(/khidi_web/images/2016/intro/i_circle1.png);
+	}
+.container.big .circle>li:nth-child(2) a {
+	background-image: url(/khidi_web/images/2016/intro/i_circle2.png);
+	}
+.container.big .circle>li:nth-child(3) a {
+	background-image: url(/khidi_web/images/2016/intro/i_circle3.png);
+	}
+.container.big .circle>li:nth-child(4) a {
+	background-image: url(/khidi_web/images/2016/intro/i_circle4.png);
+	}
+.container.big .slogan.bot {
+	font-size: 20px;
+	font-weight: bold;
+	}
+.container.big .slogan.bot span {
+	display: block;
+	margin-top: 5px;
+	font: italic bold 16px Georgia;
+	}
+/* 세부사업별 지원내용 STYLE */
+.detail_business {
+	font-size: 13px;
+	overflow: hidden;
+	}
+.detail_business > .snavigation {
+	float: left;
+	width: 220px;
+	overflow: hidden;
+	}
+.snavigation > li {
+	position: relative;
+	}
+.snavigation > li a:before {/* 블릿 */
+	position: absolute;
+	top: 21px;
+	left: 7px;
+	width: 2px;
+	height: 2px;
+	background: #747474;
+	content: "";
+	}
+.snavigation > li > a {
+	display: block;
+	position: relative;
+	padding: 12px 13px;
+	border-top: 1px solid #d8dee5;
+	color: #747474;
+	}
+.snavigation > li:last-child > a {
+	border-bottom: 1px solid #d8dee5;
+	}
+.snavigation > li > a:hover, 
+.snavigation > li.active > a {
+	background: #0080c5;
+	border-top-color: #0080c5;
+	color: #fff;
+	font-weight: bold;
+	}
+.snavigation > li > a:hover + li > a, 
+.snavigation > li.active + li > a {
+	border-top-color: #0080c5;
+	}
+.snavigation > li:last-child.active > a {
+	border-bottom-color: #0080c5;
+	}
+.snavigation > li a:hover:before, 
+.snavigation > li.active a:before {
+	background: #fff;
+	z-index: 10;
+	}
+.snavigation > li > ul.subDepth {
+	border-top: 1px solid #d8dee5;
+	border-bottom: 1px solid #d8dee5;
+	background: #f9fafc;
+}
+.snavigation > li > ul.subDepth > li{
+	display: block;
+	background: url('../../../menual/images/Help/help_list.gif') no-repeat 7px 10px;
+	padding: 0 0 5px 15px;
+}
+.snavigation > li > ul.subDepth > li > a.depth2{
+	display: block;
+	line-height: 1.5;
+	font-size: 12px;
+}
+	
+.detail_business > .float_right {
+	width: 930px;
+	}
+	
+/* sub컨텐츠요소 */
+.red {
+	color: #e9573f;
+	}
+.blue {
+	color: #5d9cec;
+	}
+.btns {
+	position: absolute;
+	bottom: -55px;
+	}
+.btns.left {
+	left: 0;
+	}
+.btns.right {
+	right: 0;
+	}
+.btns button {
+	width: 150px;
+	height: 33px;
+	padding: 0;
+	border: 2px solid #363636;
+	color: #363636;
+	font-size: 14px;
+	cursor: pointer;
+	}
+.board {
+	width: 100%;
+	border-top: 2px solid #363636;
+	border-bottom: 2px solid #363636;
+	}
+.board.add-line tbody td {
+	border-left: 1px solid #e1e1e1;
+	}
+.board.add-line tbody td.first {
+	border-left: 0;
+	}
+.board thead th {
+	position: relative;
+	padding: 10px;
+	border-bottom: 1px solid #363636;
+	color: #262626;
+	font-size: 13px;
+	}
+.board thead th.title {
+	font-size: 20px;
+	}
+.board thead th:after {
+	position: absolute;
+	bottom: 0;
+	right: -1px;
+	width: 1px;
+	height: 10px;
+	background: #363636;
+	content: "";
+	}
+.board thead th:last-child:after {
+	display: none;
+	}
+.board tbody th {
+	padding: 10px;
+	border-bottom: 1px solid #e1e1e1;
+	color: #000;
+	}
+.board tbody td {
+	padding: 10px;
+	border-bottom: 1px solid #e1e1e1;;
+	color: #626262;
+	font-size: 14px;
+	}
+.board tbody td .tag {
+	padding-right: 10px;
+	color: #5d9cec;
+	font-size: 12px;
+	}
+.board tbody td .btn {
+	padding: 5px 15px;
+	border-color: #4a89dc;
+	border-radius: 3px;
+	color: #4a89dc;
+	font-size: 13px;
+	}
+.board tbody td .btn:hover {
+	background: #4a89dc;
+	color: #fff;
+	}
+.detail-biz {
+	display: block;
+	margin-top: 5px;
+	color: #8a95a4;
+	font-size: 12px;
+	}
+.orderlist-table {
+	width: 100%;
+	margin-left: -1px;
+	letter-spacing: -0.05em;
+	}
+.orderlist-table.top-border {
+	border-top: 2px solid #626262;
+	}
+.orderlist-table thead th {
+	padding: 10px 15px;
+	background: #f9fafc;
+	border-left: 1px dashed #aeafb0;
+	border-bottom: 1px solid #626262;
+	color: #464646;
+	font-size: 13px;
+	}
+.orderlist-table thead th:first-child {
+	border-left: 0;
+	}
+.orderlist-table tbody th {
+	padding: 10px;
+	border-bottom: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+	text-align: left;
+	}
+.orderlist-table tbody td {
+	padding: 10px;
+	border-bottom: 1px solid #e1e1e1;
+	border-left: 1px solid #e1e1e1;
+	line-height: 22px;
+	}
+.orderlist-table tbody td span {
+	display: inline-block;
+	float: left;
+	width: 150px;
+	color: #8a95a4;
+	letter-spacing: 0;
+	font-size: 18px;
+	font-weight: bold;
+	}
+.orderlist-table tbody td span strong {
+	color: #0288d1;
+	}
+.orderlist-table .border-none {
+	border-left: 0;
+	}
+/* 메인,서브 공통리스트 */
+.agency-list.sub {
+	overflow: hidden;
+	margin-left: -42px;
+	}
+.agency-list.sub > li {
+	position: relative;
+	width: 368px;
+	margin: 42px 0 0 42px;
+	}	
+.agency-list:after {
+	clear: both;
+	display: block;
+	content: "";
+	}
+.agency-list > li {
+	float: left;
+	position: relative;
+	border: 1px solid #e3e0dc;
+	}
+.agency-list > li a {
+	position: relative;
+    display: block;
+    overflow: hidden;
+	}
+.agency-list .tag {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	width: 150px;
+	height: 32px;
+	margin-left: -75px;
+	border: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+	z-index: 2;
+	font-size: 15px;
+	}
+.agency-list .title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 90px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	text-align: center;
+    font-weight: normal;	
+	font-size: 16px;
+	z-index: 2;
+	overflow: hidden;
+	}
+.agency-list .kind {
+	display: none;
+	}
+.agency-list .img {
+	position: relative;
+	display: block;
+    width: 370px;
+    height: 210px;
+    overflow: hidden;
+	}
+.agency-list .img img {
+    max-width: 100%;
+    height: 100%;
+	}	
+.agency-list .img:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 1;
+	content: "";
+	}
+.agency-list ul {
+	padding: 25px 30px;
+	}
+.agency-list ul > li {
+	position: relative;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	color: #464646;
+	font-size: 14px;
+	overflow: hidden;
+	}
+.agency-list ul > li:after {
+	position: absolute;
+	top: 7px;
+	left: 0;
+	width: 6px;
+	height: 6px;
+	background: #4fc1e9;
+	border-radius: 100%;
+	content: "";
+	}
+.agency-list ul > li span:first-child {
+	float: left;
+	display: block;
+	padding-right: 10px;
+	color: #111;
+	font-weight: bold;
+	}
+.agency-list ul > li span:last-child {	
+	display: block;
+	position: relative;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+	overflow: hidden;
+	}	
+.agency-list > li .more {
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+	color: #626262;
+	font-size: 13px;
+	}
+.agency-list > li .more:after {
+	position: absolute;
+	top: 9px;
+	left: -14px;
+	width: 10px;
+	height: 1px;
+	background: #4fc1e9;
+	content: "";
+	}
+	
+
+/* Member LOGIN */
+.login{
+	position:relative;
+	width: 1000px; 
+	margin: 0 auto;
+	padding: 93px 0 100px;
+	}
+.login:after{content:""; display:block; clear:both;}
+.login .account{border:5px solid #e9edf3; width:500px; background:#fff; padding:50px 50px 64px; float:left;}
+.login .account .title{font-size:30px; color:#4b5975; position:relative;}
+.login .account .title:after{content:""; position:absolute; top:-55px; left:0; width:150px; height:10px; background:#5d9cec;}
+.login .account .desc{font-size:14px; color:#8a95a4; padding:10px 0;}
+.login .account input{display:block; width:100%; border-width:0px 0px 1px 0px; border-color:#ccd1d9; height:60px; padding:0 0 0 35px; font-size:16px;}
+.login .account .id{background:url(/khidi_web/images/2016/common/i_login1.gif) 0 center no-repeat;}
+.login .account .pw{background:url(/khidi_web/images/2016/common/i_login2.gif) 0 center no-repeat;}
+.login .account .btns{margin-top:20px; position:relative; bottom:0;}
+.login .account .btns .btn{width:49%; border:none; background:#4b5975; color:#fff; border-radius:20px; padding:10px 12px; height:inherit;}
+.login .account .btns .btn.color{background:#4a89dc;}
+
+.login .info{float:right; border:1px solid #d9e0ea; background:rgba(255,255,255,0.8); width:500px; padding:50px; height: 377px; position:relative;}
+.login .info:after{content:""; position:absolute; top:-80px; right:-109px; width:370px; height:250px; background:url(/khidi_web/images/2016/common/bg_login.png) 0 0 no-repeat; z-index:-1;}
+.login .info .title{color:#434a54; font-weight:700; font-size:22px; letter-spacing:-0.05em; margin-bottom:20px; padding-left:14px;}
+.login .info .common-list.dotted{margin-bottom:30px;}
+.login .info .common-list.dotted>li{color:#656d78; font-size:14px; line-height:22px; padding-left:14px; position:relative;}
+.login .info .common-list.dotted>li:after{content:""; width:3px; height:3px; background:#5d9cec; border-radius:100%; position:absolute; top:10px; left:4px;}
+.login .info .icons{overflow:hidden; margin-left:-30px;}
+.login .info .icons>li{float:left; text-align:center; margin-left:35px;}
+.login .info .icons>li a{color:#4a89dc; font-size:14px; display:block; padding-top:65px; background-repeat:no-repeat; background-position:center top;}
+.login .info .icons>li:nth-child(1) a{background:url(/khidi_web/images/2016/common/i_login3.png)no-repeat center 9px;}
+.login .info .icons>li:nth-child(2) a{background:url(/khidi_web/images/2016/common/i_login4.png)no-repeat center 9px;}
+.login .info .icons>li:nth-child(3) a{background:url(/khidi_web/images/2016/common/i_login5.png)no-repeat top center;}
